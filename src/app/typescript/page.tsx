@@ -4,6 +4,11 @@ const page = () => {
   return (
     <div>
       <div>Hello World</div>
+      <div>Hello World</div>
+      <div>Hello World</div>
+      <div>Hello World</div>
+      <div>Hello World</div>
+      <div>Hello World</div>
     </div>
   );
 };
