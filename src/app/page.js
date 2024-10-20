@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { data } from "../utils/data";
-import ProductItem from "@/components/ProductItem";
+import ProductItem from "../components/ProductItem";
 
 export default function Home() {
   const { products } = data;
