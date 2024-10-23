@@ -1,19 +1,18 @@
 import React from "react";
 
 const page = () => {
-  interface IUser {
-    name: string;
-    email: string;
-    age: number;
-  }
-  interface IId extends IUser {
+  interface IEmploy {
     id: number;
   }
-  const user: IId = {
-    name: "Zubair",
-    email: "zubair@test.com",
+  interface IUser<T> {
+    name: string;
+    age: number;
+    extra: T;
+  }
+  const user: IUser<IEmploy> = {
+    name: "zubair",
     age: 44,
-    id: 12,
+    extra: { id: 66 },
   };
   console.log(user);
   return (
